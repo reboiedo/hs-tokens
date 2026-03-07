@@ -2,19 +2,7 @@
   "name": "hs-raw-tokens",
   "version": "1.0.0",
   "description": "Raw tokens for HS",
-  "main": "index.js",
-  "module": "index.mjs",
-  "exports": {
-    ".": {
-      "import": "./index.mjs",
-      "require": "./index.js"
-    },
-    "./tokens.json": "./tokens/tokens.json",
-    "./metadata.json": "./tokens/$metadata.json"
-  },
   "files": [
-    "index.js",
-    "index.mjs",
     "tokens/"
   ],
   "keywords": [
