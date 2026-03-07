@@ -1,5 +1,5 @@
 {
-  "name": "hs-tokens",
+  "name": "hs-raw-tokens",
   "version": "1.0.0",
   "description": "Raw tokens for HS",
   "main": "index.js",
