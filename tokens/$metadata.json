@@ -1,0 +1,90 @@
+{
+  "$schema": "https://designsystembuilder.dev/schemas/metadata-v1.json",
+  "version": "1.0.0",
+  "generatedAt": "2026-03-07T18:43:10.268Z",
+  "designSystem": {
+    "name": "hs-test-01",
+    "description": "basic tests for development"
+  },
+  "modes": [
+    "default"
+  ],
+  "collections": {
+    "color": {
+      "kind": "color",
+      "modes": [
+        "default"
+      ],
+      "generator": {
+        "type": "colorScale",
+        "steps": [
+          "50",
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900",
+          "950"
+        ],
+        "families": [
+          {
+            "name": "blue",
+            "lightness": {
+              "start": 0.96,
+              "end": 0.13,
+              "curve": "custom",
+              "customBezier": [
+                0.35,
+                0.19,
+                0.8,
+                0.67
+              ],
+              "overrides": {
+                "700": 0.38984638868515586
+              }
+            },
+            "chroma": {
+              "start": 0.03,
+              "end": 0.23,
+              "curve": "custom",
+              "customBezier": [
+                0.17,
+                0.03,
+                0.57,
+                1
+              ],
+              "overrides": {
+                "500": 0.21,
+                "700": 0.17005896343363153
+              }
+            },
+            "hue": {
+              "start": 285,
+              "end": 299,
+              "curve": "linear",
+              "overrides": {
+                "700": 291.57429512050624
+              }
+            }
+          }
+        ]
+      }
+    },
+    "space": {
+      "kind": "spacing",
+      "modes": [
+        "default"
+      ]
+    },
+    "type": {
+      "kind": "typography",
+      "modes": [
+        "default"
+      ]
+    }
+  }
+}
