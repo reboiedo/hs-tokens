@@ -1,9 +1,9 @@
 {
   "$schema": "https://designsystembuilder.dev/schemas/metadata-v1.json",
   "version": "1.0.0",
-  "generatedAt": "2026-03-07T19:49:36.489Z",
+  "generatedAt": "2026-03-08T15:18:37.729Z",
   "designSystem": {
-    "name": "hs-test-01",
+    "name": "hs-tokens",
     "description": "basic tests for development"
   },
   "modes": [
